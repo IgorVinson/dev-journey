@@ -1,0 +1,16 @@
+# Dependency directories
+node_modules
+dist
+build
+
+# Logs
+logs
+*.log
+
+# Cache directories
+.cache
+.npm
+
+# Environment files
+.env
+.env.*

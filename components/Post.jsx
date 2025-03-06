@@ -1,10 +1,12 @@
-function Post(props){
-    return (
-        <li>
-            <p className="author">{props.author}</p>
-            <p className="text">{props.text}</p>
-        </li> 
-    )
+import styles from './Post.module.css';
+
+function Post(props) {
+  return (
+    <li className={styles.post}>
+      <p className={styles.author}>{props.author}</p>
+      <p className={styles.text}>{props.text}</p>
+    </li>
+  );
 }
 
- export default Post;
+export default Post;
